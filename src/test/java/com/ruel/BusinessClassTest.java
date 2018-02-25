@@ -22,4 +22,14 @@ public class BusinessClassTest {
         assertNotNull(businessClass.add(1, 2));
     }
 
+    @Test
+    public void testBusinessClassSubtractMethod(){
+        assertNotNull(businessClass.subtract(3,1));
+    }
+
+    @Test
+    public void testBusinessClassMultiplyMethod(){
+        assertNotNull(businessClass.multiply(2,5));
+    }
+
 }
